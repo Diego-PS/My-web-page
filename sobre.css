@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+#sobre {
+    position: relative;
+    padding: 10vw;
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+}
+
+#foto {
+    max-width: 500px;
+    width: 50vw;
+    margin: auto;
+    animation: imagem-aparecendo 2s 0s normal;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    top: 0px;
+}
+
+#texto {
+    position: relative;
+    margin: auto;
+    top: -7vw;
+    padding: 8vw 50px 30px 50px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 40px 40px 40px 40px;
+    max-width: 800px;
+    width: 100%;
+    overflow: auto;
+    height: inherit;
+}
+
+#texto h1 {
+    text-align: center;
+    font-weight: 700;
+    animation: opacidade 4s 0s normal;
+    color: #1976d2;
+    font-size: 60px;
+}
+
+#texto p {
+    height: auto;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 20px;
+    overflow: auto;
+    color: rgb(80, 80, 80);
+}
+
+@keyframes opacidade {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+#cima {
+    position: absolute;
+    top: 10vw;
+    width: 100%;
+    left: 0px;
+}
+
+#foto-por-cima {
+    max-width: 500px;
+    width: 50vw;
+    animation: imagem-aparecendo 2s 0s normal;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    margin: auto;
+}
+
+@keyframes imagem-aparecendo {
+    from {
+        left: -80vw;
+    } to {
+        left: 0px;
+    }
+}
