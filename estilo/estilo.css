@@ -1,0 +1,59 @@
+.navbar-dark {
+    margin-top: 0px;
+    margin: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 2em;
+}
+
+
+.navbar-toggler {
+    border-radius: 2em;
+}
+
+.dropdown-menu {
+    border-radius: 2em;
+    padding: 10px
+}
+
+.dropdown-item {
+    border-radius: 2em;
+}
+
+#cabecalho {
+    width: 100%;
+    background-color: #1976d2;
+    top: 0px;
+    padding: 0px 0px 4vw 4vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nome {
+    font-weight: 700;
+    font-size: 6vw;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    height: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: texto-aparecendo 5s 0s normal;
+    color: white;
+}
+
+@keyframes texto-aparecendo {
+    from {
+        width: 0;
+    } to {
+        width: 11em;
+    }
+}
+
+#teste {
+    width: 100%;
+}
+
+a.nav-link {
+    color: white;
+}

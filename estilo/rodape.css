@@ -1,0 +1,15 @@
+footer {
+    background-color: #1976d2;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    display: table;
+}
+
+footer p {
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    color: white;
+}

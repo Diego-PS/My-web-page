@@ -1,0 +1,46 @@
+#contato {
+    margin: 7vw 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#contato h1 {
+    color: #1976d2;
+    font-size: 60px;
+    padding-bottom: 4vw;
+    font-weight: 700;
+    animation: opacidade 2s 0s normal;
+}
+
+.escrever {
+    animation: estica 2s 0s normal;
+    margin: 0px 10%;
+    width: 80%;
+    max-width: 800px;
+    border: 8px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+textarea#mensagem {
+    height: 200px;
+}
+
+@keyframes estica {
+    from {
+        width: 0px;
+    } to {
+        width: 80%;
+    }
+}
+
+.botao {
+    background-color: rgb(230, 230, 230);
+    border: 3px solid rgb(230, 230, 230);
+    border-radius: 2px;
+}
+
+.botao:hover {
+    background-color: rgb(200, 200, 200);
+    border: 3px solid rgb(200, 200, 200);
+}
